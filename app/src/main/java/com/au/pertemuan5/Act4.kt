@@ -24,6 +24,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.modifier.modifierLocalMapOf
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.unit.dp
+import java.sql.Driver
 
 @Composable
 fun FormDataDiri(modifier: Modifier){
@@ -93,6 +94,13 @@ fun FormDataDiri(modifier: Modifier){
         ) {
            Text ("Submit")
         }
+
+        Divider(
+            modifier = Modifier.padding(bottom =
+            dimensionResource(R.dimen.padding_medium), top = dimensionResource(R.dimen.padding_medium)),
+            thickness = dimensionResource(R.dimen.divider_tipis),
+            color = Color.DarkGray
+        )
 
     }
 }
