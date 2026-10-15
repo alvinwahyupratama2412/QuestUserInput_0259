@@ -11,4 +11,5 @@ import androidx.compose.ui.Modifier
 fun FormDataDiri(modifier: Modifier){
     //variabel-variabel untuk mengingat nilai masukan dari keyborad
     var textNama by remember { mutableStateOf(value = "") }
+    var textAlamat by remember { mutableStateOf(value = "") }
 }
