@@ -111,7 +111,7 @@ fun FormDataDiri(modifier: Modifier){
             modifier = Modifier.height(100.dp).width(300.dp)
         ) {
             Column(modifier = Modifier.padding(horizontal = 5.dp, vertical = 15.dp),) {
-
+                Text(text = "Nama :"+ name, color = Color.White)
             }
         }
 
