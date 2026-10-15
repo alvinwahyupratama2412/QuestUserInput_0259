@@ -77,7 +77,7 @@ fun FormDataDiri(modifier: Modifier){
                 dimensionResource(R.dimen.padding_medium), top = dimensionResource(id = R.dimen.padding_medium
             )),
 
-            thickness = dimensionResource(1dp),
+            thickness = dimensionResource(R.dimen.divider_tipis),
             color = Color.DarkGray
         )
 
